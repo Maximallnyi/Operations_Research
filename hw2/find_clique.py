@@ -11,7 +11,7 @@ class Graph:
         self.graph[u].append(v)
         self.graph[v].append(u)
 
-    def greedy_randomize_clique(self, iterations: int=10):
+    def greedy_randomize_clique(self, iterations: int=30):
         best_clique = []
         vertices_degrees = [(len(self.graph[i]), i) for i in range(self.V)]
         sorted_degrees = sorted(vertices_degrees, reverse=True)
@@ -21,13 +21,9 @@ class Graph:
             for _ in range(iterations):
                 clique = [vertex]
                 clique_candidates = self.graph[vertex]
-                
-                candidate_degrees = []
-                for i in sorted_degrees:
-                    if i[1] in clique_candidates:
-                        candidate_degrees.append(i)
+                np.random.shuffle(clique_candidates)
 
-                for _, v_candidate in candidate_degrees:
+                for v_candidate in clique_candidates:
                     flag = True
                     for v_clique in clique:
                         if v_candidate not in self.graph[v_clique]:
