@@ -1,0 +1,48 @@
+brock200_2
+Time = 1.8261263370513916
+Clique size: 12
+[182, 144, 120, 119, 134, 47, 148, 54, 157, 104, 69, 26]
+Is correct clique = True
+
+brock200_3
+Time = 17.547225456237793
+Clique size: 15
+[35, 103, 117, 157, 57, 97, 177, 96, 28, 143, 83, 129, 11, 37, 172]
+Is correct clique = True
+
+brock200_4
+Time = 89.3379318523407
+Clique size: 17
+[53, 164, 27, 78, 160, 18, 191, 37, 11, 138, 70, 92, 28, 126, 64, 185, 116]
+Is correct clique = True
+
+hamming8-4
+Time = 120.1962854862213
+Clique size: 16
+[35, 81, 146, 133, 224, 185, 203, 174, 52, 122, 220, 109, 70, 8, 247, 31]
+Is correct clique = True
+
+johnson8-2-4
+Time = 0.004994869232177734
+Clique size: 4
+[7, 23, 13, 15]
+Is correct clique = True
+
+johnson16-2-4
+Time = 23.681644243240356
+Clique size: 8
+[110, 75, 17, 95, 81, 45, 56, 35]
+Is correct clique = True
+
+keller4
+Time = 17.622661304473877
+Clique size: 11
+[89, 70, 11, 99, 130, 75, 18, 23, 153, 0, 125]
+Is correct clique = True
+
+MANN_a9
+Time = 5.980299425125122
+Clique size: 16
+[32, 41, 9, 44, 29, 4, 14, 18, 15, 24, 23, 3, 2, 37, 34, 1]
+Is correct clique = True
+
